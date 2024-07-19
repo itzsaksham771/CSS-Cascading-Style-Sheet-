@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        /* Element Selector */
+        p{
+            border: 2px solid blue;
+        }
+        /* Id selector */
+        #redElement{
+            color: red;
+        }
+        /* Class selector */
+        .SAKSHAM{
+            background-color: rgb(59, 188, 17);
+        }
+        /* Grouping Selector */
+        footer,span{
+            color: black;
+            background-color:rgb(117, 138, 129);
+        }
+    </style>
+</head>
+<body>
+    <h2>CSS Selectors </h2>
+    <p>This is paragraph number one </p>
+    <p id="redElement" class="SAKSHAM">This is paragraph number two </p>
+    <div>
+        <p>This is paragraph number three </p>
+    </div>
+    <span>I am span </span>
+    <footer>I am footer</footer>
+</body>
+</html>
