@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction of CSS</title>
+    <style>
+        p{
+            color:purple; background-color: yellow !important;
+        }
+    </style>
+    <link rel="stylesheet" href="tut13and14.css">
+</head>
+<body>
+    <h3>CSS Introduction</h3>
+    <!-- <p style="color: red; background-color: yellow;">Now from here you are all set to gain knowldege about css</p> Inline CSS -->
+    <p>Now from here you are all set to gain knowldege about css</p>
+</body>
+</html>
