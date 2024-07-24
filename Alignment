@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .container{
+            margin: 33px auto;
+            width: 1000px;
+            border: 2px solid black;
+            border-radius: 25px;
+            background-color: rgb(197, 210, 160);
+        }
+        .item{
+            border: 2px solid rgb(130, 76, 161);
+            margin: 12px 3px;
+            padding: 11px 4px;
+            background-color: rgb(188, 141, 156);
+            border-radius: 30px;
+        }
+        #fruits{
+            float: left;
+            width: 48%;
+        }
+        #computers{
+            float: right;
+            width: 48%;
+        }
+        #stationary{
+            clear: left;
+            clear:right;
+            clear: both;
+            width: 100%;
+        }
+        p,h3{
+            text-align: justify;
+        }
+        h1{
+            margin: auto;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>WELCOME TO MY STORE </h1>
+        <div id="fruits" class="item">
+            <h3>Fruits</h3>
+            <p class="para" id="fruitpara">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis fugiat blanditiis et doloremque ab, architecto nobis iste, est dolorem voluptatem quidem sint iure totam minus enim delectus alias velit nostrum Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta quam doloremque beatae impedit ab accusamus, fuga odit, ad quia perferendis reprehenderit voluptate doloribus vero nemo ducimus quidem. Optio, obcaecati. Quam.</p>
+        </div>
+        <div id="computers" class="item">
+            <h3>Computers</h3>
+            <p class="para" id="computerpara">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis fugiat blanditiis et doloremque ab, architecto nobis iste, est dolorem voluptatem quidem sint iure totam minus enim delectus alias velit nostrum Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis nostrum, accusamus quaerat ullam iusto, optio, praesentium quae ut reiciendis nulla molestias dicta ratione earum natus aspernatur! Ipsam nesciunt ipsa tempore?</p>
+        </div>
+        <div id="stationary" class="item">
+            <h3>Stationary</h3>
+            <p class="para" id="stationarypara">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis fugiat blanditiis et doloremque ab, architecto nobis iste, est dolorem voluptatem quidem sint iure totam minus enim delectus alias velit nostrum.</p>
+            </div>
+        <div id="glasses" class="item">
+            <h3>Glassses</h3>
+            <p class="para" id="glasspara">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis fugiat blanditiis et doloremque ab, architecto nobis iste, est dolorem voluptatem quidem sint iure totam minus enim delectus alias velit nostrum.</p>
+        </div>
+    </div>
+</body>
+</html>
